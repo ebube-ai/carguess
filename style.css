@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body div.container{
+    display: flex;
+    justify-content: center;
+}
+
+div.container div.appcontent h2{
+margin: 12px;
+font-size: 2.3rem;
+}
+
+div.container div.appcontent p.question{
+    font-size: 20px;
+}
+
+div.container div.appcontent{
+    border-radius: 8px;
+    text-align: center;
+    margin: 1%;
+    padding: 3%;
+    border: 2px solid black;
+    width: 90%;
+    max-width: 600px;
+    background-color: #7a92aa;
+}
+
+div.container div.appcontent div.inputdiv{
+    margin: 5% 0;
+}
+
+div.appcontent div.inputdiv input.guesscar{
+    padding: 3%;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* width: 90%; */
+}
+
+div.appcontent div.inputdiv button.btn{
+    padding: 3% 3%;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+div.appcontent div.imagediv img.carimg{
+    width: 60%;
+    border-radius: 8px;
+    margin-top: 5%;
+    /* padding: 3%; */
+    height: 25vh;
+}
+
+div.appcontent div.remarkcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+div.appcontent div.resultcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+div.appcontent div.resultcontainer div.result{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+div.appcontent div.remarkcontainer div.remark{
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #00ff2f;
+}
+
+div.result p span.carname{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+@media(max-width:450px){
+ div.appcontent div.inputdiv input.guesscar{
+    width: 200px !important;
+ }   
+}
