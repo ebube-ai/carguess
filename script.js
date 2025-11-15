@@ -29,8 +29,8 @@ if(guessCar==""){
     var indexNumber = Math.round(Math.random()*2)
     carName.innerHTML = cars[indexNumber];
     guessCar = guessCar.toUpperCase()
-}
-    if(carName.innerHTML.toUpperCase() == guessCar){
+
+     if(carName.innerHTML.toUpperCase() == guessCar){
         remarkStatement.innerHTML = "Congratulations, you guessed right!!"
         remark.style.backgroundColor = "green"
     } else{
@@ -38,5 +38,7 @@ if(guessCar==""){
         remark.style.backgroundColor = "red"
     }
     carImg.src = cars[indexNumber] + ".jpeg";
+}
+   
 }
     
